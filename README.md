@@ -59,30 +59,32 @@ To deepen the analysis, additional techniques were applied:
 
 ## Key Insights
 
-- The average patient age is approximately **54 years**, indicating a middle-aged patient population.
+* Older patients tend to incur higher treatment costs and report lower satisfaction levels, indicating a potential relationship between age, complexity of care, and patient experience.
 
-- **Cancer and heart-related conditions** are the most expensive to treat and also require longer hospital stays.
+* High-cost conditions such as cancer and heart-related diseases are associated with longer hospital stays, reflecting the severity and resource intensity of these treatments.
 
-- There is a **positive relationship between cost and length of stay**, meaning more severe conditions tend to require more resources.
+* Patients who were readmitted recorded lower satisfaction scores, suggesting possible gaps in treatment effectiveness or post-care support.
 
-- There is a **strong negative relationship between age and satisfaction**, suggesting older patients report lower satisfaction levels.
+* Female patients showed higher average treatment costs compared to male patients, highlighting potential differences in treatment patterns or healthcare needs.
 
-- Patients who were **readmitted have lower satisfaction scores**, indicating possible gaps in treatment effectiveness or follow-up care.
+* Critical conditions such as heart attacks and strokes are more prevalent among older age groups, emphasizing the importance of age-targeted preventive care.
 
-- Treatment costs differ significantly by gender, with **female patients showing higher average costs** in this dataset.
-
-- Certain conditions such as **Heart Attack and Stroke are more common among older patients**, highlighting demographic trends.
-
+* Correlation analysis shows a strong negative relationship between satisfaction and both age and cost, indicating that higher costs and older age groups may be linked to poorer patient experiences.
 ---
 
-## Business Impact
+## Recommendations
 
-This analysis can help healthcare providers:
+* Implement targeted care strategies for older patients to improve satisfaction, such as personalized treatment plans and enhanced patient support services.
 
-- Identify high-cost and high-risk conditions
-- Improve patient satisfaction and care quality
-- Reduce readmission rates
-- Allocate resources more efficiently
+* Optimize cost management for high-expense conditions by improving operational efficiency and exploring cost-reduction strategies without compromising care quality.
+
+* Strengthen post-treatment follow-up programs to reduce readmission rates and improve overall patient outcomes.
+
+* Investigate the drivers behind higher treatment costs among female patients to ensure equitable and efficient healthcare delivery.
+
+* Focus on preventive healthcare initiatives for age-related critical conditions such as heart disease and stroke.
+
+* Improve patient experience by addressing factors contributing to lower satisfaction, particularly among high-cost and high-risk patient groups.
 
 ---
 
