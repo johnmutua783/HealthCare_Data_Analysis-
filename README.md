@@ -221,14 +221,15 @@ The largest condition groups within this segment were:
 
 ## Power BI Dashboard
 
-The Power BI dashboard brings the analysis together into an executive view covering:
+The cleaned and analyzed healthcare data was further developed into an interactive Power BI dashboard designed to provide an executive-level view of hospital performance.
 
-- Hospital KPIs
-- Treatment cost by condition
-- Cost versus hospital utilization
-- Readmission by condition
+The dashboard focuses on five key areas:
+
+- Treatment costs
+- Hospital resource utilization
+- Readmissions
 - Age-group performance
-- High-cost / low-satisfaction patients
+- Patient experience
 
 ### Dashboard Title
 
@@ -236,13 +237,104 @@ The Power BI dashboard brings the analysis together into an executive view cover
 
 *Cost, Resource Utilization, Readmissions & Patient Experience*
 
-### Dashboard Preview
+---
 
-Add the final dashboard screenshot here:
+## Executive Dashboard
 
-`images/executive_page.png`
+The executive dashboard brings together the main hospital performance KPIs and analytical views into a single page.
+
+### Key Performance Indicators
+
+The dashboard displays:
+
+- **Total Patients:** 984
+- **Total Treatment Cost:** 8.23M
+- **Average Treatment Cost:** 8,367.48
+- **Average Length of Stay:** 37.66 days
+- **Readmission Rate:** 26.83%
+- **Average Satisfaction:** 3.60 / 5
+
+![Hospital Operations & Patient Insights Executive Dashboard](images/executive_page.png)
 
 ---
+
+## Dashboard Visuals
+
+### 1. Treatment Cost by Condition
+
+This visual compares total treatment costs across the different medical conditions in the dataset.
+
+Cancer represents the largest treatment-cost contributor, followed by Prostate Cancer, Heart Attack, and Heart Disease.
+
+![Treatment Cost by Condition](images/treatment_cost_by_condition.png)
+
+**Business insight:**  
+A relatively small number of medical conditions account for a substantial share of total treatment expenditure. These conditions can therefore be prioritized when reviewing treatment costs and resource requirements.
+
+---
+
+### 2. Cost vs Hospital Utilization
+
+The scatter plot compares:
+
+- **Average Treatment Cost**
+- **Average Length of Stay**
+
+Each bubble represents a medical condition, allowing management to identify conditions that combine higher treatment costs with longer hospital stays.
+
+![Cost vs Hospital Utilization](images/cost_vs_hospital.png)
+
+**Business insight:**  
+Conditions such as Cancer, Prostate Cancer, and Heart Attack combine relatively high treatment costs with longer average stays, making them important areas for resource and capacity planning.
+
+---
+
+### 3. Readmission Rate by Condition
+
+This visual compares readmission rates across medical conditions.
+
+Heart Attack and Heart Disease show the highest observed readmission rates in the dataset, while several other conditions have substantially lower rates.
+
+![Readmission Rate by Condition](images/readmission_rate_by_condition.png)
+
+**Business insight:**  
+Conditions with high observed readmission rates can be prioritized for further review of discharge planning, follow-up processes, and continuity of care.
+
+> **Note:** The unusually high readmission rates observed for some conditions are specific to this dataset and should not be interpreted as real-world clinical benchmarks.
+
+---
+
+### 4. Age Group Performance
+
+The Age Group Performance visual compares:
+
+- Average Treatment Cost
+- Readmission Rate
+
+across different patient age groups.
+
+![Age Group Performance](images/Age_Group_Performance.png)
+
+**Business insight:**  
+The 75+ age group stands out with the highest average treatment cost and the highest observed readmission rate.
+
+This makes the group an important segment for further investigation into patient support, discharge planning, and care coordination.
+
+---
+
+### 5. Patient Experience
+
+The Patient Experience visual compares average satisfaction between:
+
+- Patients who were not readmitted
+- Patients who were readmitted
+
+![Patient Experience](images/patient_experience.png)
+
+**Business insight:**  
+Patients who were readmitted recorded lower average satisfaction than patients who were not readmitted.
+
+This suggests that readmission should be monitored alongside patient experience rather than treated as an isolated operational metric.
 
 ## Recommendations
 
