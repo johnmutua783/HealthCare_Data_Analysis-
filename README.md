@@ -6,8 +6,6 @@ This project analyzes hospital patient records to identify patterns in **treatme
 
 The goal is to move beyond descriptive statistics and provide management-oriented insights that can support areas such as cost monitoring, resource planning, readmission review, and patient experience improvement.
 
-> **Note:** The dataset is highly structured and contains synthetic-style patterns. Findings should be interpreted as patterns within the dataset rather than causal clinical conclusions.
-
 ---
 
 ## Business Problem
@@ -65,7 +63,6 @@ After cleaning and feature engineering, the analytical dataset contains **19 col
 
 - **Python**
 - **Pandas** — data cleaning, transformation, aggregation, and analysis
-- **Matplotlib** — exploratory visualization
 - **Power BI** — interactive dashboard and KPI reporting
 - **Jupyter Notebook** — analysis workflow
 
@@ -269,56 +266,3 @@ Based on the patterns observed in the dataset:
 6. **Use segmentation rather than relying only on hospital-wide averages**  
    Segmenting patients by condition, age, cost band, and readmission status provides more actionable insight than overall KPIs alone.
 
----
-
-## Project Structure
-
-```text
-HealthCare_Data_Analysis/
-│
-├── Healthcare_analysis.ipynb
-├── healthcare_clean.csv
-├── dashboard/
-│   └── healthcare_dashboard.pbix
-├── images/
-│   └── healthcare_dashboard.png
-└── README.md
-```
-
----
-
-## Skills Demonstrated
-
-### Python / Pandas
-- Data loading
-- Data quality assessment
-- Missing-value analysis
-- Duplicate detection
-- Data-type validation
-- Date conversion
-- String cleaning
-- Feature engineering
-- Groupby aggregation
-- Segmentation
-- Correlation analysis
-- Exploratory analysis
-
-### Power BI / DAX
-- KPI development
-- Measures
-- Interactive filtering
-- Condition-level analysis
-- Scatter plots
-- Segmentation
-- Dashboard design
-- Business-focused data storytelling
-
----
-
-## Conclusion
-
-This project demonstrates an end-to-end analytics workflow:
-
-**Raw hospital data → Data quality assessment → Pandas cleaning → Feature engineering → Business analysis → Power BI dashboard → Management recommendations**
-
-The focus is not only on calculating metrics, but on using those metrics to identify **cost drivers, resource-intensive conditions, readmission patterns, and patient groups that may require closer operational attention**.
