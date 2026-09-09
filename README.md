@@ -282,7 +282,7 @@ The scatter plot compares:
 
 Each bubble represents a medical condition, allowing management to identify conditions that combine higher treatment costs with longer hospital stays.
 
-![Cost vs Hospital Utilization](images/cost_vs_hospital.png)
+![Cost vs Hospital Utilization](images/cost_vs_hospitalization.png)
 
 **Business insight:**  
 Conditions such as Cancer, Prostate Cancer, and Heart Attack combine relatively high treatment costs with longer average stays, making them important areas for resource and capacity planning.
