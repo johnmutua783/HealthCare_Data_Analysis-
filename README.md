@@ -295,7 +295,7 @@ This visual compares readmission rates across medical conditions.
 
 Heart Attack and Heart Disease show the highest observed readmission rates in the dataset, while several other conditions have substantially lower rates.
 
-![Readmission Rate by Condition](images/readmission_rate_by_condition.png)
+![Readmission Rate by Condition](images/Readmission_rate_by_condition.png)
 
 **Business insight:**  
 Conditions with high observed readmission rates can be prioritized for further review of discharge planning, follow-up processes, and continuity of care.
