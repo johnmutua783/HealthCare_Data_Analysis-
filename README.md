@@ -250,9 +250,9 @@ The dashboard displays:
 - **Total Patients:** 984
 - **Total Treatment Cost:** 8.23M
 - **Average Treatment Cost:** 8,367.48
-- **Average Length of Stay:** 37.66 days
+- **Average Length of Stay:** 38 days
 - **Readmission Rate:** 26.83%
-- **Average Satisfaction:** 3.60 / 5
+- **Average Satisfaction:** 4 / 5
 
 ![Hospital Operations & Patient Insights Executive Dashboard](images/executive_page.png)
 
@@ -300,7 +300,6 @@ Heart Attack and Heart Disease show the highest observed readmission rates in th
 **Business insight:**  
 Conditions with high observed readmission rates can be prioritized for further review of discharge planning, follow-up processes, and continuity of care.
 
-> **Note:** The unusually high readmission rates observed for some conditions are specific to this dataset and should not be interpreted as real-world clinical benchmarks.
 
 ---
 
