@@ -101,9 +101,9 @@ The cleaned dataset was exported as:
 | Total Patients | 984 |
 | Total Treatment Cost | 8,233,600 |
 | Average Treatment Cost | 8,367.48 |
-| Average Length of Stay | 37.66 days |
+| Average Length of Stay | 38 days |
 | Readmission Rate | 26.83% |
-| Average Satisfaction | 3.60 / 5 |
+| Average Satisfaction | 4 / 5 |
 
 ---
 
