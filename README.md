@@ -240,7 +240,7 @@ The Power BI dashboard brings the analysis together into an executive view cover
 
 Add the final dashboard screenshot here:
 
-`images/healthcare_dashboard.png`
+`images/executive_page.png`
 
 ---
 
