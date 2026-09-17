@@ -233,7 +233,7 @@ The dashboard brings together key metrics and analytical views covering:
 
 ### Live Power BI Dashboard
 
-👉 **[Open the Interactive Hospital Operations & Patient Insights Dashboard](https://app.powerbi.com/groups/me/reports/1ad6d2f0-0bd6-4d49-bfc7-1b9f2772b694/fef1cad3001816901a50?experience=power-bi)**
+ **[Open the Interactive Hospital Operations & Patient Insights Dashboard](https://app.powerbi.com/groups/me/reports/1ad6d2f0-0bd6-4d49-bfc7-1b9f2772b694/fef1cad3001816901a50?experience=power-bi)**
 
 The interactive dashboard allows users to explore the healthcare data dynamically and examine hospital performance across different conditions, age groups, readmission status, treatment costs, length of stay, and patient satisfaction.
 
